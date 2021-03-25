@@ -36,6 +36,7 @@ public class Programa extends javax.swing.JFrame {
         lblRes = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Potencias");
 
         jLabel1.setText("Base");
 
@@ -87,7 +88,7 @@ public class Programa extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnCalc)
                     .addComponent(lblRes))
-                .addContainerGap(67, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
